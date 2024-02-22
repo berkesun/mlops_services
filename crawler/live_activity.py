@@ -16,7 +16,7 @@ def crawl_live_activity():
     df = pd.DataFrame(columns=["event_title", "upper_category", "lower_category", "date", "start_time", "location"])
     driver = webdriver.Chrome()
     driver.get(url)
-    _time.sleep(4)
+    _time.sleep(3)
 
 
     page_source = driver.page_source
